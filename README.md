@@ -54,5 +54,3 @@ Data was sourced from baseball statistics database containing player, school, an
 - Team composition reveals patterns in batting preferences  
 
 ---
-
-## Project Structure  
