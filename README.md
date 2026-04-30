@@ -32,29 +32,31 @@ Data was sourced from baseball statistics database containing player, school, an
 - Ranking Functions
 
 ## Analysis Sections
+All SQL queries are stored in:
 
-### 1. School Analysis
-## School Analysis Insights
+school_analysis.sql
 
-- Identified schools producing the highest number of MLB players
-- Observed how school dominance changes across decades
-- Top schools consistently appear across multiple time periods, indicating strong baseball programs
+Key analyses include:
+1. School & Talent Pipeline Analysis
+Number of schools producing players per decade
+Top 5 schools producing the most MLB players
+Trends in talent production over time
+
+2. Salary Analysis
+Total and average salary by player
+Identification of highest-paid players
+Salary distribution insights
+
+3. Career & Player Analysis
+Career length evaluation
+Player comparisons based on attributes
+Trends in height and weight over time
+
+4. Player Comparison Analysis
+Players with similar characteristics (e.g. same birth date)
+Distribution of batting preferences (right/left/both)
+Team-level composition insights
+
+Each query includes clear comments explaining the business logic and purpose, simulating real-world analytics workflows.
 
 
-### 2. Salary Analysis
-Analyzed salary distribution across players and identified top earners by school and career stage.
-
-### 3. Career Analysis
-Explored player longevity and career progression patterns using SQL aggregations and window functions.
-
-### 4. Player Comparison
-Compared players based on performance and salary ranking.
-
-### 2. Salary Analysis
-Analyzed salary distribution across players and identified top earners by school and career stage.
-
-### 3. Career Analysis
-Explored player longevity and career progression patterns using SQL aggregations and window functions.
-
-### 4. Player Comparison
-Compared players based on performance and salary ranking.
